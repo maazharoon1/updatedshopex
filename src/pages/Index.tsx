@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
 import { Layout } from "@/components/Layout";
 import { useSeo } from "@/hooks/use-seo";
 import { AdvancedImage } from "@cloudinary/react";
@@ -8,7 +7,6 @@ import { PremiumSeparator } from "@/components/PremiumSeparator";
 import Work from "./Work";
 
 const Index = () => {
-  const navigate = useNavigate();
   useSeo({
     title: "ShopEx Studio — Design & Illustration",
     description:
@@ -34,8 +32,7 @@ const Index = () => {
 
   useEffect(() => {
     const scrollToSection = () => {
-      if (window.location.hash === "#about") { navigate("/about", { replace: true }); return; }
-      const sectionHashes = ["#home", "#projects", "#about"];
+      const sectionHashes = ["#home", "#projects"];
       if (!sectionHashes.includes(window.location.hash)) return;
 
       const target = document.querySelector(window.location.hash);
@@ -45,7 +42,7 @@ const Index = () => {
     scrollToSection();
     window.addEventListener("hashchange", scrollToSection);
     return () => window.removeEventListener("hashchange", scrollToSection);
-  }, [navigate]);
+  }, []);
 
   const handleMouseMove = (e: React.PointerEvent) => {
     if (!containerRef.current || !gridRef.current || e.pointerType !== "mouse" || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -122,10 +119,6 @@ const Index = () => {
       <section id="projects" className="-mt-10 scroll-mt-20 md:scroll-mt-24">
         <Work embedded />
       </section>
-      {/* <PremiumSeparator label="Studio profile" detail="Approach and expertise" /> */}
-      {/* <section id="about" className="scroll-mt-20 -mt-10 md:scroll-mt-24">
-        <About embedded />
-      </section> */}
     </Layout>
   );
 };

@@ -7,8 +7,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 const navItems = [
   { label: "Home", path: "/#home", hash: "#home" },
   { label: "Projects", path: "/#projects", hash: "#projects" },
-  { label: "About", path: "/about", hash: "#about" },
-  // { label: "Contact", path: "/contact" },
+ 
 ];
 
 interface HeaderProps {
@@ -57,10 +56,9 @@ export function Header({ revealMode = false }: HeaderProps) {
   };
 
   const isNavActive = (hash: string) => {
-    if (hash === "#about") return location.pathname === "/about";
     if (location.pathname !== "/") return false;
     if (hash === "#home") return location.hash === "" || location.hash === "#home";
-    if (hash === "#projects") return Boolean(location.hash) && location.hash !== "#home" && location.hash !== "#about";
+    if (hash === "#projects") return Boolean(location.hash) && location.hash !== "#home";
     return location.hash === hash;
   };
 
@@ -70,7 +68,6 @@ export function Header({ revealMode = false }: HeaderProps) {
   ) => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
     setIsMenuOpen(false);
-    if (hash === "#about") return;
     if (location.pathname !== "/") return;
 
     event.preventDefault();
@@ -89,7 +86,7 @@ export function Header({ revealMode = false }: HeaderProps) {
     <Dialog.Root open={isMenuOpen} onOpenChange={setIsMenuOpen}>
     <header 
       onFocusCapture={() => setIsVisible(true)}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={` top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 -translate-y-full pointer-events-none'

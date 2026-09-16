@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import type { MouseEvent } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 interface FooterProps {
   variant?: "default" | "echelon";
@@ -6,7 +7,26 @@ interface FooterProps {
 
 export function Footer({ variant = "default" }: FooterProps) {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+  const navigate = useNavigate();
 
+  const handleSectionNavigation = (event: MouseEvent<HTMLAnchorElement>, hash: "#home" | "#projects") => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+    // On other pages, the home page scrolls to the hash after it mounts.
+    if (location.pathname !== "/") return;
+
+    event.preventDefault();
+    navigate({ pathname: "/", hash });
+    // Scroll even when this hash is already selected.
+    requestAnimationFrame(() => {
+      document.getElementById(hash.slice(1))?.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+        block: "start",
+      });
+    });
+  };
+
+  
   if (variant === "echelon") {
     return (
       <footer className="border-t border-separator mt-auto">
@@ -26,9 +46,11 @@ export function Footer({ variant = "default" }: FooterProps) {
             <div className="space-y-3">
               <p className="text-label">Gallery</p>
               <div className="text-sm space-y-1">
-                <Link to="/#projects" className="block text-foreground hover:text-accent transition-colors">Projects</Link>
-                <Link to="/about" className="block text-foreground hover:text-accent transition-colors">About</Link>
-                <Link to="/#home" className="block text-foreground hover:text-accent transition-colors">Home</Link>
+                <Link to="/#projects" onClick={(event) => handleSectionNavigation(event, "#projects")} className="block text-foreground hover:text-accent transition-colors">Projects</Link>
+        
+                <Link to="/#home"
+                  onClick={(event) => handleSectionNavigation(event, "#home")}
+                   className="block text-foreground hover:text-accent transition-colors">Home</Link>
               </div>
             </div>
 
@@ -85,8 +107,7 @@ export function Footer({ variant = "default" }: FooterProps) {
 
           {/* Center */}
           <div className="flex gap-8 text-sm text-muted-foreground">
-            <Link to="/#projects" className="hover-highlight">Work</Link>
-            <Link to="/about" className="hover-highlight">About</Link>
+            <Link to="/#projects" onClick={(event) => handleSectionNavigation(event, "#projects")} className="hover-highlight">Work</Link>
             <a href="mailto:hello@ShopExstudio.com" className="hover-highlight">Contact</a>
           </div>
 
