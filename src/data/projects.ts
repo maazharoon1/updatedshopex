@@ -10,6 +10,7 @@ export interface Project {
   tags?: string[];
   client?: string;
   videoUrl?: string;
+  liveUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -614,6 +615,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui1",
+    liveUrl: "https://morr-fit-houston.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -625,6 +627,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui2",
+    liveUrl: "https://lawn-care-pearl.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -636,6 +639,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui3",
+    liveUrl: "https://norden-living.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -647,6 +651,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui4",
+    liveUrl: "https://pizza-theta-dun-93.vercel.app/", 
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -658,6 +663,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui5",
+    liveUrl: "https://estate-indol-iota.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -669,6 +675,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui6",
+    liveUrl: "https://eyewear-ivory.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -680,6 +687,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui7",
+    liveUrl: "https://photographer-eosin-phi.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
@@ -691,6 +699,7 @@ export const projects: Project[] = [
     type: "image",
     description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
     mainImage: "shopexui8",
+    liveUrl: "https://jj-painting-ng9r87tpg-maaz-p.vercel.app/",
     coverImages: [],
     tags: ["UI DESIGN", "DIGITAL"],
     client: "Independent",
