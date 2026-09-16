@@ -1,0 +1,615 @@
+{
+  "conditions": "Local production build, headless Edge, DPR 1, no CPU/network throttling; fresh browser profile",
+  "checks": [
+    {
+      "name": "Home anchor destinations exist",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "360px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "360px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "390px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "390px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "768px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "768px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1024px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1024px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1440px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Logo Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Logo Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / Brand Identity & Guide no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Brand Identity & Guide preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / stationery Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / stationery Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / Packaging Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Packaging Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / Flyers & Brochures no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Flyers & Brochures preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / Book Cover no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / Book Cover preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / UI Design no page overflow",
+      "passed": true
+    },
+    {
+      "name": "1920px / UI Design preview fits",
+      "passed": true
+    },
+    {
+      "name": "1920px / 2d Animations no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu focuses a link",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu Escape restores trigger focus",
+      "passed": true
+    },
+    {
+      "name": "/about 360px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/about 390px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/about 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/about 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/about 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/about 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "About destination exists",
+      "passed": true
+    },
+    {
+      "name": "/work 360px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/work 390px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/work 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/work 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/work 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/work 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v01 360px no overflow",
+      "passed": false
+    },
+    {
+      "name": "/video/v01 390px no overflow",
+      "passed": false
+    },
+    {
+      "name": "/video/v01 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v01 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v01 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v01 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v01 native video and source",
+      "passed": true
+    },
+    {
+      "name": "/video/v07 360px no overflow",
+      "passed": false
+    },
+    {
+      "name": "/video/v07 390px no overflow",
+      "passed": false
+    },
+    {
+      "name": "/video/v07 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v07 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v07 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v07 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/v07 native video and source",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 360px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 390px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/video/missing 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 360px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 390px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 768px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 1024px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 1440px no overflow",
+      "passed": true
+    },
+    {
+      "name": "/missing-page 1920px no overflow",
+      "passed": true
+    },
+    {
+      "name": "404 has its own title",
+      "passed": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "initial": {
+    "vitals": {
+      "cls": 0.003696061095721761,
+      "lcp": 812
+    },
+    "resources": [
+      {
+        "name": "https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Inter:wght@400;500;600&display=swap",
+        "type": "link",
+        "bytes": 1102,
+        "duration": 376.1000000089407
+      },
+      {
+        "name": "http://127.0.0.1:4180/assets/index-DwKQ9_Ay.js",
+        "type": "script",
+        "bytes": 311069,
+        "duration": 73.6000000089407
+      },
+      {
+        "name": "http://127.0.0.1:4180/assets/index-BaU0lmDk.css",
+        "type": "link",
+        "bytes": 76216,
+        "duration": 61.29999999701977
+      },
+      {
+        "name": "https://res.cloudinary.com/fd9kyggd/image/upload/f_auto/q_auto:eco/c_fill,h_531,w_400/pa01?_a=DATAiZAAZAA0",
+        "type": "img",
+        "bytes": 12700,
+        "duration": 46.20000000298023
+      },
+      {
+        "name": "https://res.cloudinary.com/fd9kyggd/image/upload/f_auto/q_auto:eco/c_fill,h_531,w_400/s01?_a=DATAiZAAZAA0",
+        "type": "img",
+        "bytes": 10248,
+        "duration": 43.099999994039536
+      },
+      {
+        "name": "https://res.cloudinary.com/fd9kyggd/image/upload/f_auto/q_auto:eco/c_fill,h_531,w_400/fl01?_a=DATAiZAAZAA0",
+        "type": "img",
+        "bytes": 21506,
+        "duration": 41.5
+      },
+      {
+        "name": "https://res.cloudinary.com/fd9kyggd/image/upload/f_auto/q_auto:eco/c_fill,h_531,w_400/ui01?_a=DATAiZAAZAA0",
+        "type": "img",
+        "bytes": 12066,
+        "duration": 45.6000000089407
+      },
+      {
+        "name": "http://127.0.0.1:4180/favicon.ico",
+        "type": "other",
+        "bytes": 20673,
+        "duration": 18.100000008940697
+      }
+    ],
+    "headings": [
+      "ShopEx Studio"
+    ],
+    "missingAnchors": []
+  },
+  "categories": [
+    "Logo Design",
+    "Brand Identity & Guide",
+    "stationery Design",
+    "Packaging Design",
+    "Flyers & Brochures",
+    "Book Cover",
+    "UI Design",
+    "2d Animations"
+  ]
+}

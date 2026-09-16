@@ -1,0 +1,72 @@
+.ui-design-window {
+  position: relative;
+  display: block;
+  height: clamp(280px, 100vw, 400px);
+  overflow: hidden;
+  border: 1px solid hsl(var(--separator));
+  border-radius: 6px;
+  background: #000;
+  transition: border-color 200ms ease;
+}
+
+.ui-design-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: translateY(0);
+  transition: transform 4s ease-in-out;
+}
+
+.ui-design-card {
+  position: relative;
+  width: 100%;
+  transition: transform 350ms ease;
+}
+
+.ui-design-card:focus-visible .ui-design-window { border-color: hsl(var(--accent)); }
+
+@media (hover: hover) and (pointer: fine) {
+  .ui-design-card:hover { transform: scale(1.035); z-index: 1; }
+  .ui-design-card:hover .ui-design-window { border-color: hsl(var(--accent)); }
+  .ui-design-card:hover .ui-design-cover { transform: translateY(var(--preview-offset, 0px)); }
+}
+
+.ui-design-overlay { position: fixed; inset: 0; z-index: 70; background: rgb(0 0 0 / 75%); }
+.ui-design-dialog {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  z-index: 71;
+  padding: max(58px, env(safe-area-inset-top)) max(68px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(68px, env(safe-area-inset-left));
+  overflow: hidden;
+  background: transparent;
+  color: white;
+}
+.ui-design-screenshot { position: relative; height: 100%; min-width: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; text-align: center; touch-action: pan-y pinch-zoom; }
+.ui-design-image-button { display: flex; width: 100%; height: 100%; max-width: 1440px; margin: 0 auto; align-items: center; justify-content: center; cursor: zoom-in; }
+.ui-design-full-image { display: block; width: 100%; height: 100%; min-width: 0; object-fit: contain; }
+.ui-design-image-button.is-zoomed { display: block; width: min(100%, 1440px); height: auto; margin: 0 auto; cursor: zoom-out; }
+.ui-design-image-button.is-zoomed .ui-design-full-image { width: 100%; height: auto; max-height: none; }
+.ui-design-control { position: absolute; z-index: 1; display: grid; width: 48px; height: 48px; place-items: center; background: rgb(0 0 0 / 35%); }
+.ui-design-close { top: max(8px, env(safe-area-inset-top)); right: max(8px, env(safe-area-inset-right)); }
+.ui-design-previous { left: 12px; top: 50%; transform: translateY(-50%); }
+.ui-design-next { right: 12px; top: 50%; transform: translateY(-50%); }
+.ui-design-control:hover { border-color: hsl(var(--accent)); color: hsl(var(--accent)); }
+
+@media (max-width: 639px) {
+  .ui-design-dialog { padding: calc(56px + env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) calc(64px + env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+  .ui-design-control { width: 44px; height: 44px; }
+  .ui-design-previous, .ui-design-next { top: auto; bottom: max(8px, env(safe-area-inset-bottom)); transform: none; }
+  .ui-design-previous { left: calc(50% - 56px); }
+  .ui-design-next { right: calc(50% - 56px); }
+}
+
+@media (min-width: 640px) and (max-height: 500px) {
+  .ui-design-dialog { padding-top: max(12px, env(safe-area-inset-top)); padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ui-design-card, .ui-design-window, .ui-design-cover { transition: none; }
+  .ui-design-card:hover, .ui-design-card:hover .ui-design-cover { transform: none; }
+  .ui-design-screenshot { scroll-behavior: auto; }
+}
