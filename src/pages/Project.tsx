@@ -22,7 +22,7 @@ const Project = () => {
   return (
     <Layout noPadding headerRevealMode showEchelonFooter>
       {/* Hero - Full Screen */}
-      <section className="relative h-screen overflow-hidden">
+      <section className=" relative h-screen overflow-hidden">
         <AdvancedImage
           cldImg={getCloudinaryImage(project.mainImage, { width: 2000, height: 1200, crop: "fill" })}
           loading="eager"

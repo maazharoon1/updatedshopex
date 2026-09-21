@@ -25,6 +25,52 @@
 
 .ui-design-card:focus-visible .ui-design-window { border-color: hsl(var(--accent)); }
 
+.ui-lightbox-control {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.ui-lightbox-control:hover { background: rgb(255 255 255 / 15%); }
+.ui-lightbox-control:disabled { opacity: 0.4; }
+
+.ui-lightbox-viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 30px 48px;
+}
+
+.ui-lightbox-image-button {
+  display: block;
+  flex: none;
+  max-width: 100%;
+  cursor: zoom-in;
+}
+
+.ui-lightbox-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100dvh - 60px);
+  object-fit: contain;
+}
+
+.ui-lightbox-viewport.is-zoomed { align-items: flex-start; padding-top: 0; padding-bottom: 40px; }
+.is-zoomed .ui-lightbox-image-button { width: min(100%, 1000px); cursor: zoom-out; }
+.is-zoomed .ui-lightbox-image { width: 100%; max-height: none; }
+
+@media (max-width: 639px) {
+  .ui-lightbox-viewport { padding: 44px 12px 36px; }
+  .ui-lightbox-image { max-height: calc(100dvh - 80px); }
+  .ui-lightbox-viewport.is-zoomed { padding-top: 44px; }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .ui-design-card:hover { transform: scale(1.035); z-index: 1; }
   .ui-design-card:hover .ui-design-window { border-color: hsl(var(--accent)); }

@@ -33,7 +33,7 @@ export function ProjectListItem({
       id={id}
       className="project-list-button group block w-full border-b border-separator text-left transition-colors duration-300 active:bg-accent focus-visible:bg-accent"
     >
-      <div className="touch-project-row container-wide min-h-[104px] items-center justify-between gap-4 py-3">
+      <div className=" touch-project-row container-wide min-h-[104px] items-center justify-between gap-4 py-3">
         <div className="min-w-0 flex-1">
           <h3 className="truncate font-sans text-base uppercase tracking-wide transition-colors duration-300 group-active:text-accent-foreground min-[375px]:text-lg">
             {title}
@@ -81,13 +81,7 @@ export function ProjectListItem({
             ))}
           </div>
 
-          {/* Year */}
-          {/* <span className={`text-xs md:text-sm uppercase tracking-widest transition-colors duration-300 ${
-            isHovered ? 'text-accent-foreground' : 'text-muted-foreground'
-          }`}>
-            {year}
-          </span> */}
-
+      
           {/* Hover Image */}
           <div 
             className="pointer-events-none fixed right-8 top-1/2 z-40 aspect-[3/4] w-64 translate-x-4 -translate-y-1/2 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 lg:right-32 lg:w-80"
