@@ -46,7 +46,7 @@ export function Footer({ variant = "default" }: FooterProps) {
             <div className="space-y-3">
               <p className="text-label">Gallery</p>
               <div className="text-sm space-y-1">
-                <Link to="/#projects" onClick={(event) => handleSectionNavigation(event, "#projects")} className="block text-foreground hover:text-accent transition-colors">Projects</Link>\
+                <Link to="/#projects" onClick={(event) => handleSectionNavigation(event, "#projects")} className="block text-foreground hover:text-accent transition-colors">Projects</Link>
         
                 <Link to="/#home"
                   onClick={(event) => handleSectionNavigation(event, "#home")}
