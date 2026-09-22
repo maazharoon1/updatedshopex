@@ -63,7 +63,7 @@
       "passed": true
     },
     {
-      "name": "360px / 2d Animations no page overflow",
+      "name": "360px / Animations no page overflow",
       "passed": true
     },
     {
@@ -123,7 +123,7 @@
       "passed": true
     },
     {
-      "name": "390px / 2d Animations no page overflow",
+      "name": "390px / Animations no page overflow",
       "passed": true
     },
     {
@@ -183,7 +183,7 @@
       "passed": true
     },
     {
-      "name": "768px / 2d Animations no page overflow",
+      "name": "768px / Animations no page overflow",
       "passed": true
     },
     {
@@ -243,7 +243,7 @@
       "passed": true
     },
     {
-      "name": "1024px / 2d Animations no page overflow",
+      "name": "1024px / Animations no page overflow",
       "passed": true
     },
     {
@@ -303,7 +303,7 @@
       "passed": true
     },
     {
-      "name": "1440px / 2d Animations no page overflow",
+      "name": "1440px / Animations no page overflow",
       "passed": true
     },
     {
@@ -363,7 +363,7 @@
       "passed": true
     },
     {
-      "name": "1920px / 2d Animations no page overflow",
+      "name": "1920px / Animations no page overflow",
       "passed": true
     },
     {
@@ -610,6 +610,6 @@
     "Flyers & Brochures",
     "Book Cover",
     "UI Design",
-    "2d Animations"
+    "Animations"
   ]
 }
