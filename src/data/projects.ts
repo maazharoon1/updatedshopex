@@ -768,7 +768,7 @@ export const projects: Project[] = [
 
   // Mobile App 
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad01",
     title: "Outdoorsy RV Rentals",
     type: "image",
@@ -779,7 +779,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad02",
     title: "Inkartists Tattoo Booking",
     type: "image",
@@ -790,7 +790,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad03",
     title: "ThredUp Fashion Resale",
     type: "image",
@@ -801,7 +801,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad04",
     title: "Home Services Booking",
     type: "image",
@@ -812,7 +812,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad05",
     title: "Nutrition & Food Tracking",
     type: "image",
@@ -823,7 +823,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad06",
     title: "Dating & Social Connections",
     type: "image",
@@ -834,7 +834,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad07",
     title: "Smart Car Control",
     type: "image",
@@ -845,7 +845,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad08",
     title: "Finance Dashboard & Agent Calls",
     type: "image",
@@ -856,7 +856,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad09",
     title: "Rental Deposit & Support",
     type: "image",
@@ -867,7 +867,7 @@ export const projects: Project[] = [
     client: "Independent",
   },
   {
-    filter: "Mobile App ",
+    filter: "Mobile App",
     id: "mad10",
     title: "Sports Event Booking",
     type: "image",
@@ -1228,4 +1228,5 @@ export const projects: Project[] = [
     tags: ["Animations","ANIMATION","VIDEO"],
     client: "Independent",
   },
+
 ];

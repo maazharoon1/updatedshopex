@@ -61,7 +61,6 @@ export function Footer({ variant = "default" }: FooterProps) {
                 <a href="mailto:hello@ShopExstudio.com" className="block break-words hover:text-accent transition-colors">
                   hello@ShopExstudio.com
                 </a>
-                <p>+55 11 9999-9999</p>
               </div>
             </div>
 
