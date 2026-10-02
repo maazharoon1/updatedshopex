@@ -119,28 +119,6 @@
 }
 
 @layer components {
-  .touch-project-row {
-    display: flex;
-  }
-
-  .fine-pointer-project-row {
-    display: none;
-  }
-
-  @media (hover: hover) and (pointer: fine) {
-    .project-list-button:hover {
-      background-color: hsl(var(--accent));
-    }
-
-    .touch-project-row {
-      display: none;
-    }
-
-    .fine-pointer-project-row {
-      display: block;
-    }
-  }
-
   .container-wide {
     @apply mx-auto px-6 md:px-12 lg:px-20 xl:px-32;
     max-width: 1600px;

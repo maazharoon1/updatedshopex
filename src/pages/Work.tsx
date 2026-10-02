@@ -1,7 +1,7 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Layout } from "@/components/Layout";
-import { ProjectListItem } from "@/components/ProjectListItem";
+import { ProjectGrid } from "@/components/ProjectGrid";
 import { projects } from "@/data/projects";
 import { useSeo } from "@/hooks/use-seo";
 
@@ -106,18 +106,13 @@ const Work = ({ embedded = false }: WorkProps) => {
         </div>
       </section>
 
-      {/* Project List */}
+      {/* Project previews */}
       <section className="pb-24">
-        {activeCategory === "UI Design" ? <Suspense fallback={<div className="container-wide min-h-[400px]" role="status">Loading previews…</div>}><UIDesignGrid projects={filtered} /></Suspense> : filtered.map((project, index) => (
-          <ProjectListItem
-            key={project.id}
-            id={project.id}
-            title={project.title}
-            tags={project.tags ?? []}
-            // year={project.year ?? ""}
-            image={project.mainImage}
-            index={index}
-            onClick={() => {
+        {activeCategory === "UI Design" ? <Suspense fallback={<div className="container-wide min-h-[400px]" role="status">Loading previews…</div>}><UIDesignGrid projects={filtered} /></Suspense> : (
+          <ProjectGrid
+            key={activeCategory}
+            projects={filtered}
+            onSelect={(project) => {
               if (project.type === "video") {
                 navigate(`/video/${project.id}`);
               } else {
@@ -125,7 +120,7 @@ const Work = ({ embedded = false }: WorkProps) => {
               }
             }}
           />
-        ))}
+        )}
       </section>
       {selectedProject && (
         <Suspense fallback={null}>

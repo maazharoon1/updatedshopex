@@ -1,0 +1,222 @@
+﻿.project-card-entry {
+  --project-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  min-width: 0;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 700ms ease, transform 850ms var(--project-ease);
+  transition-delay: var(--project-reveal-delay, 0ms);
+}
+
+.project-card-entry:nth-child(2n) { --project-reveal-delay: 95ms; }
+
+.project-card-entry[data-revealed="false"] {
+  opacity: 0;
+  transform: translateY(26px) scale(0.985);
+}
+
+.project-card-entry:focus-within {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0ms;
+}
+
+.project-card {
+  transition: transform 550ms var(--project-ease);
+}
+
+.project-card-preview {
+  position: relative;
+  isolation: isolate;
+}
+
+.project-card-preview::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px hsl(var(--accent) / 0.65);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 450ms ease;
+}
+
+.project-card-preview.is-loading { aspect-ratio: 1; }
+
+.project-card-placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+  background: hsl(var(--muted) / 0.4);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 650ms ease, visibility 0s 650ms;
+}
+
+.project-card-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 25%, hsl(var(--foreground) / 0.07) 50%, transparent 75%);
+  animation: project-image-shimmer 2.2s ease-in-out infinite paused;
+}
+
+.project-card-entry[data-revealed="true"] .is-loading .project-card-placeholder::after {
+  animation-play-state: running;
+}
+
+.is-loaded .project-card-placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Loading motion lives on its own layer, separate from hover and tall-image scrolling. */
+.project-card-art {
+  display: block;
+  opacity: 0;
+  transform: translateY(8px) scale(1.025);
+  transform-origin: center top;
+  transition: opacity 700ms ease, transform 1000ms var(--project-ease);
+}
+
+.is-loaded .project-card-art {
+  opacity: 1;
+  transform: none;
+}
+
+.project-card-cover {
+  transform: scale(1);
+  transition: transform 900ms var(--project-ease);
+}
+
+.project-card-preview.is-tall { aspect-ratio: 3 / 4; }
+
+.project-card-preview.is-tall .project-card-cover {
+  transform: translateY(0);
+  transition: transform 1200ms var(--project-ease);
+}
+
+.project-card-caption {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 550ms ease, transform 750ms var(--project-ease);
+  transition-delay: calc(var(--project-reveal-delay, 0ms) + 90ms);
+}
+
+.project-card-entry[data-revealed="false"] .project-card-caption {
+  opacity: 0;
+  transform: translateY(7px);
+}
+
+.project-card-entry:focus-within .project-card-caption {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0ms;
+}
+
+.project-card-title { position: relative; }
+
+.project-card-title::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: -2px;
+  height: 1px;
+  background: hsl(var(--accent) / 0.7);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 550ms var(--project-ease);
+}
+
+.project-card-arrow {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border: 1px solid hsl(var(--separator));
+  border-radius: 50%;
+  color: hsl(var(--accent));
+  transition: background-color 400ms ease, border-color 400ms ease, color 400ms ease;
+}
+
+.project-card-arrow-icon {
+  position: absolute;
+  inset: 7px;
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: transform 500ms var(--project-ease), opacity 250ms ease;
+}
+
+.project-card-arrow-icon.is-copy {
+  opacity: 0;
+  transform: translate(-24px, 24px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .project-card:hover { transform: translateY(-6px); }
+  .project-card:hover .project-card-preview::after { opacity: 1; }
+  .project-card:hover .is-loaded:not(.is-tall) .project-card-cover { transform: scale(1.045); }
+  .project-card:hover .is-tall .project-card-cover {
+    transform: translateY(var(--project-preview-offset, 0px));
+    transition-duration: var(--project-scroll-duration, 7s);
+    transition-timing-function: ease-in-out;
+  }
+  .project-card:hover .project-card-title::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .project-card:hover .project-card-arrow {
+    color: hsl(var(--accent-foreground));
+    background: hsl(var(--accent));
+    border-color: hsl(var(--accent));
+  }
+  .project-card:hover .project-card-arrow-icon { opacity: 0; transform: translate(24px, -24px); }
+  .project-card:hover .project-card-arrow-icon.is-copy { opacity: 1; transform: translate(0, 0); }
+}
+
+.project-card:active { transform: scale(0.985); transition-duration: 150ms; }
+
+.project-card:focus-visible .project-card-preview::after { opacity: 1; }
+.project-card:focus-visible .project-card-title::after { transform: scaleX(1); transform-origin: left; }
+.project-card:focus-visible .is-tall .project-card-cover {
+  transform: translateY(var(--project-preview-offset, 0px));
+  transition-duration: var(--project-scroll-duration, 7s);
+  transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .project-card-entry:nth-child(n) { --project-reveal-delay: 0ms; }
+  .project-card-entry:nth-child(3n + 2) { --project-reveal-delay: 95ms; }
+  .project-card-entry:nth-child(3n) { --project-reveal-delay: 190ms; }
+}
+
+@keyframes project-image-shimmer {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card-entry,
+  .project-card-entry[data-revealed="false"],
+  .project-card,
+  .project-card .project-card-art,
+  .project-card .project-card-cover,
+  .project-card-entry .project-card-caption {
+    transform: none !important;
+    transition: none;
+  }
+  .project-card-entry[data-revealed="false"],
+  .project-card-entry[data-revealed="false"] .project-card-caption { opacity: 1; }
+  .project-card-placeholder::after { animation: none; }
+  .project-card-placeholder,
+  .project-card-arrow,
+  .project-card-arrow-icon,
+  .project-card-title::after,
+  .project-card-preview::after { transition: none; }
+}
