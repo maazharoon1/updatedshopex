@@ -42,7 +42,7 @@ export function UIDesignLightbox({ projects, selectedId, onClose }: UIDesignLigh
             if (event.key === "ArrowRight") { event.preventDefault(); navigate(1); }
           }}
         >
-          <Dialog.Title className="sr-only">{project.title} — UI design preview</Dialog.Title>
+          <Dialog.Title className="sr-only">{project.title} — Web Dev preview</Dialog.Title>
           <div className="absolute right-0 top-0 z-20 flex bg-black/70 text-white">
             <button type="button" className="ui-lightbox-control" onClick={toggleZoom} disabled={imageFailed} aria-label={zoomed ? "Fit full image" : "Zoom image"}>
               {zoomed ? <ZoomOut size={20} /> : <ZoomIn size={20} />}

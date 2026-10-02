@@ -55,11 +55,11 @@
       "passed": true
     },
     {
-      "name": "360px / UI Design no page overflow",
+      "name": "360px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "360px / UI Design preview fits",
+      "name": "360px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -115,11 +115,11 @@
       "passed": true
     },
     {
-      "name": "390px / UI Design no page overflow",
+      "name": "390px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "390px / UI Design preview fits",
+      "name": "390px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -175,11 +175,11 @@
       "passed": true
     },
     {
-      "name": "768px / UI Design no page overflow",
+      "name": "768px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "768px / UI Design preview fits",
+      "name": "768px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -235,11 +235,11 @@
       "passed": true
     },
     {
-      "name": "1024px / UI Design no page overflow",
+      "name": "1024px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "1024px / UI Design preview fits",
+      "name": "1024px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -295,11 +295,11 @@
       "passed": true
     },
     {
-      "name": "1440px / UI Design no page overflow",
+      "name": "1440px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "1440px / UI Design preview fits",
+      "name": "1440px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -355,11 +355,11 @@
       "passed": true
     },
     {
-      "name": "1920px / UI Design no page overflow",
+      "name": "1920px / Web Dev no page overflow",
       "passed": true
     },
     {
-      "name": "1920px / UI Design preview fits",
+      "name": "1920px / Web Dev preview fits",
       "passed": true
     },
     {
@@ -609,7 +609,7 @@
     "Packaging Design",
     "Flyers & Brochures",
     "Book Cover",
-    "UI Design",
+    "Web Dev",
     "Animations"
   ]
 }

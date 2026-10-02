@@ -84,7 +84,7 @@ const Work = ({ embedded = false }: WorkProps) => {
       </section>
 
       {/* Filters */}
-      <section className={`container-wide ${activeCategory === "UI Design" ? "pb-6" : "pb-7 md:pb-14"}`}>
+      <section className={`container-wide ${activeCategory === "Web Dev" ? "pb-6" : "pb-7 md:pb-14"}`}>
         <div className="flex flex-wrap gap-2 md:gap-3">
           {categories.map((category) => {
             const isActive = category === activeCategory;
@@ -108,7 +108,7 @@ const Work = ({ embedded = false }: WorkProps) => {
 
       {/* Project previews */}
       <section className="pb-24">
-        {activeCategory === "UI Design" ? <Suspense fallback={<div className="container-wide min-h-[400px]" role="status">Loading previews…</div>}><UIDesignGrid projects={filtered} /></Suspense> : (
+        {activeCategory === "Web Dev" ? <Suspense fallback={<div className="container-wide min-h-[400px]" role="status">Loading previews…</div>}><UIDesignGrid projects={filtered} /></Suspense> : (
           <ProjectGrid
             key={activeCategory}
             projects={filtered}
