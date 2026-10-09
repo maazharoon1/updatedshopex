@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import * as Dialog from "@radix-ui/react-dialog";
+import { Logo } from "./Logo";
 
 const navItems = [
   { label: "Home", path: "/#home", hash: "#home" },
@@ -98,9 +99,9 @@ export function Header({ revealMode = false }: HeaderProps) {
           <Link 
             to="/#home" 
             onClick={(event) => handleSectionNavigation(event, "#home")}
-            className="font-display text-lg  font-semibold tracking-tight  hover:opacity-70 transition-opacity"
+            className="shrink-0 hover:opacity-70 transition-opacity"
           >
-            ShopEx Studio
+            <Logo />
           </Link>
 
           {/* Desktop Navigation - Centered */}

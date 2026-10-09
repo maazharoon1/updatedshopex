@@ -1,5 +1,6 @@
 import type { MouseEvent } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Logo } from "./Logo";
 
 interface FooterProps {
   variant?: "default" | "echelon";
@@ -98,7 +99,7 @@ export function Footer({ variant = "default" }: FooterProps) {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Left */}
           <div className="space-y-4">
-            <p className="font-display text-xl font-semibold">ShopEx Studio</p>
+            <Logo />
             <p className="text-muted-foreground text-sm">
               Design & Illustration
             </p>
