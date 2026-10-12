@@ -1093,6 +1093,260 @@ export const projects: Project[] = [
     client: "Independent",
   },
 
+  
+// Social Media Posts shopex Extended Collection
+{
+  filter: "Social Media Post",
+  title: "Smartwatch Spotlight",
+  type: "image",
+  id: "SSM06",
+  description:
+    "A rugged smartwatch ad with orange lighting and clear feature callouts.",
+  mainImage: "SSM06",
+  coverImages: [],
+},
+
+{
+  filter: "Social Media Post",
+  title: "Motorcycle Helmet",
+  type: "image",
+  id: "SSM16",
+  description:
+    "A bold helmet campaign with red-and-black graphics and neatly grouped features.",
+  mainImage: "SSM16",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Gaming Mouse",
+  type: "image",
+  id: "SSM17",
+  description:
+    "A Logitech mouse campaign with oversized brand lettering and subtle colored lighting.",
+  mainImage: "SSM17",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Basketball Motivation",
+  type: "image",
+  id: "SSM18",
+  description:
+    "A basketball post pairing an airborne player with a glowing clock and motivational type.",
+  mainImage: "SSM18",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Cyberpunk Soul",
+  type: "image",
+  id: "SSM19",
+  description:
+    "A moody portrait design with stretched typography and a small neon glow.",
+  mainImage: "SSM19",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Wireless Earbuds",
+  type: "image",
+  id: "SSM07",
+  description:
+    "A futuristic earbud ad with glossy details and a deep green glow.",
+  mainImage: "SSM07",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Headphone Escape",
+  type: "image",
+  id: "SSM08",
+  description:
+    "A playful headphone ad with a tiny listener nestled inside oversized blue earcups.",
+  mainImage: "SSM08",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Immersive Audio",
+  type: "image",
+  id: "SSM09",
+  description:
+    "A headphone ad blending a listener, forest scenery, and a flowing waterfall.",
+  mainImage: "SSM09",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Movie Night",
+  type: "image",
+  id: "SSM10",
+  description:
+    "An energetic cinema post with flying popcorn and a surprised viewer.",
+  mainImage: "SSM10",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Everyday Sneakers",
+  type: "image",
+  id: "SSM11",
+  description:
+    "An orange-accented sneaker post with a weekly calendar and bold typography.",
+  mainImage: "SSM11",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "SEO vs PPC",
+  type: "image",
+  id: "SSM12",
+  description:
+    "A marketing comparison post using tinted glasses and two clear columns.",
+  mainImage: "SSM12",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Streetwear Edit",
+  type: "image",
+  id: "SSM13",
+  description:
+    "Dark streetwear posts with neon rings, distorted portraits, and metallic lettering.",
+  mainImage: "SSM13",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Healthcare Admin",
+  type: "image",
+  id: "SSM14",
+  description:
+    "A teal healthcare post highlighting the paperwork that follows a busy patient schedule.",
+  mainImage: "SSM14",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Doctor's Daily Grind",
+  type: "image",
+  id: "SSM15",
+  description:
+    "A playful healthcare post inviting doctors to share their least favorite admin task.",
+  mainImage: "SSM15",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Business Tech Campaigns",
+  type: "image",
+  id: "SSM01",
+  description:
+    "A bright trio of posts promoting IT services, AI calling, and team management.",
+  mainImage: "SSM01",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Team Management",
+  type: "image",
+  id: "SSM02",
+  description:
+    "Fresh blue-and-white posts highlighting attendance, team goals, and live work tracking.",
+  mainImage: "SSM02",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Brand Promo Mix",
+  type: "image",
+  id: "SSM03",
+  description:
+    "A varied set featuring a sneaker ad, time tracking, and digital marketing.",
+  mainImage: "SSM03",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Product Spotlights",
+  type: "image",
+  id: "SSM04",
+  description:
+    "Sneakers, a wireless mouse, and solar panels take center stage in three bold ads.",
+  mainImage: "SSM04",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Beauty Brush",
+  type: "image",
+  id: "SSM05",
+  description:
+    "A playful pink beauty post featuring a makeup brush topped with a chef's hat.",
+  mainImage: "SSM05",
+  coverImages: [],
+},
+
+{
+  filter: "Social Media Post",
+  title: "Blender Spotlight",
+  type: "image",
+  id: "SSM20",
+  description:
+    "A blender campaign with bright light trails and bold power-focused lettering.",
+  mainImage: "SSM20",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Live Music Night",
+  type: "image",
+  id: "SSM21",
+  description:
+    "A lively concert post with a singer portrait, magenta tones, and bold event details.",
+  mainImage: "SSM21",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Seafood Pasta",
+  type: "image",
+  id: "SSM22",
+  description:
+    "A colorful food post with a generous bowl of shrimp pasta and playful oversized lettering.",
+  mainImage: "SSM22",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Racing Spirit",
+  type: "image",
+  id: "SSM23",
+  description:
+    "A racing post combining a driver portrait, a red race car, and sharp teal graphics.",
+  mainImage: "SSM23",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Herbal Drops",
+  type: "image",
+  id: "SSM24",
+  description:
+    "A minimal herbal supplement post with a blue dropper bottle, soft reflections, and leafy accents.",
+  mainImage: "SSM24",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Digital Agency",
+  type: "image",
+  id: "SSM25",
+  description:
+    "A purple agency post with a playful portrait framed inside an outlined laptop.",
+  mainImage: "SSM25",
+  coverImages: [],
+},
   // stationery Design
   {
     filter: "stationery Design",
