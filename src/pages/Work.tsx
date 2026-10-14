@@ -15,7 +15,17 @@ interface WorkProps {
 const Work = ({ embedded = false }: WorkProps) => {
   const navigate = useNavigate();
   const categories = useMemo(
-    () => [...Array.from(new Set(projects.map((p) => p.filter)))],
+    () => {
+      const projectCategories = Array.from(new Set(projects.map((p) => p.filter)))
+        .filter((category) => category !== "Illustration");
+      const socialMediaIndex = projectCategories.indexOf("Social Media Post");
+      projectCategories.splice(
+        socialMediaIndex === -1 ? projectCategories.length : socialMediaIndex + 1,
+        0,
+        "Illustration",
+      );
+      return projectCategories;
+    },
     []
   );
 
