@@ -1,3 +1,4 @@
+import { notFoundSeo, videoSeo } from "@/lib/seo";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { Layout } from "@/components/Layout";
@@ -10,10 +11,7 @@ const Video = () => {
   const { id } = useParams();
   const project = projects.find((item) => item.id === id && item.type === "video");
 
-  useSeo({
-    title: project ? `${project.title} — ShopEx Studio` : "Video — ShopEx Studio",
-    description: project?.description,
-  });
+  useSeo(project ? videoSeo(project, projects) : notFoundSeo);
 
   if (!project) return <Navigate to="/#projects" replace />;
 

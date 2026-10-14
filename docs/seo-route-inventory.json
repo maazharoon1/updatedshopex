@@ -1,0 +1,536 @@
+{
+  "auditDate": "2026-10-14",
+  "note": "Local code verified; existing live statuses were checked before deployment of these SEO changes",
+  "pages": [
+    {
+      "path": "/",
+      "title": "ShopEx Studio | Branding, Web Design & Animation",
+      "description": "Explore ShopEx Studio's portfolio of brand identity, web and mobile app design, animation, illustration, packaging, and visual content for brands.",
+      "canonical": "https://www.shopex-portfolio.com/",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/pa01",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/index.html"
+    },
+    {
+      "path": "/video/2dv68",
+      "title": "Robotic Arm Assembling Industrial Message | ShopEx Studio",
+      "description": "Watch Robotic Arm Assembling Industrial Message in the ShopEx Studio animation portfolio. A high-tech robotic arm precisely places red blocks on a white conveyor belt…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv68",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv68t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv68/index.html"
+    },
+    {
+      "path": "/video/2dv69",
+      "title": "Berry Crunch 3D Product Showcase | ShopEx Studio",
+      "description": "Watch Berry Crunch 3D Product Showcase in the ShopEx Studio animation portfolio. A vibrant 3D product animation featuring floating berries, rotating packaging, and icy…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv69",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv69t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv69/index.html"
+    },
+    {
+      "path": "/video/2dv70",
+      "title": "Fast AI Website Building Platform | ShopEx Studio",
+      "description": "Watch Fast AI Website Building Platform in the ShopEx Studio animation portfolio. Dynamic animations showcase how users can quickly generate and customize professional…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv70",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv70t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv70/index.html"
+    },
+    {
+      "path": "/video/2dv71",
+      "title": "Finding Business Clarity in the Office | ShopEx Studio",
+      "description": "Watch Finding Business Clarity in the Office in the ShopEx Studio animation portfolio. A woman shifts from frustration with a magic 8-ball to confidence while managing…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv71",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv71t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv71/index.html"
+    },
+    {
+      "path": "/video/2dv72",
+      "title": "Animated Journey for a New Career | ShopEx Studio",
+      "description": "Watch Animated Journey for a New Career in the ShopEx Studio animation portfolio. A traveler navigates through an airport and flies to a new city while searching for…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv72",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv72t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv72/index.html"
+    },
+    {
+      "path": "/video/2dv73",
+      "title": "Adding Funds to Digital Wallet | ShopEx Studio",
+      "description": "Watch Adding Funds to Digital Wallet in the ShopEx Studio animation portfolio. A step-by-step mobile tutorial guides users through the process of topping up their…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv73",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv73t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv73/index.html"
+    },
+    {
+      "path": "/video/2dv74",
+      "title": "Connecting with Experts through Healthcare App | ShopEx Studio",
+      "description": "Watch Connecting with Experts through Healthcare App in the ShopEx Studio animation portfolio. Patients use smartphones and computers to text medical professionals and…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv74",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv74t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv74/index.html"
+    },
+    {
+      "path": "/video/2dv75",
+      "title": "Automated Crypto Trading Maze Animation | ShopEx Studio",
+      "description": "Watch Automated Crypto Trading Maze Animation in the ShopEx Studio animation portfolio. Playful Pac-Man style graphics navigate a maze of cryptocurrency symbols to…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv75",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv75t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv75/index.html"
+    },
+    {
+      "path": "/video/2dv76",
+      "title": "Booking Hotels via Mobile Travel App | ShopEx Studio",
+      "description": "Watch Booking Hotels via Mobile Travel App in the ShopEx Studio animation portfolio. A young traveler uses his smartphone to browse hotel listings and manage bookings…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv76",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv76t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv76/index.html"
+    },
+    {
+      "path": "/video/2dv77",
+      "title": "Zip: AI-Powered Intake-to-Pay Platform Showcase | ShopEx Studio",
+      "description": "Watch Zip: AI-Powered Intake-to-Pay Platform Showcase in the ShopEx Studio animation portfolio. This demonstration highlights an AI solution that simplifies spend…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv77",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv77t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv77/index.html"
+    },
+    {
+      "path": "/video/2dv78",
+      "title": "Minimalist Dark Mode Software Interface | ShopEx Studio",
+      "description": "Watch Minimalist Dark Mode Software Interface in the ShopEx Studio animation portfolio. Sleek dark-themed UI components like search bars and menus transition smoothly…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv78",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv78t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv78/index.html"
+    },
+    {
+      "path": "/video/2dv79",
+      "title": "Global Inspection Headquarters in Mumbai | ShopEx Studio",
+      "description": "Watch Global Inspection Headquarters in Mumbai in the ShopEx Studio animation portfolio. The historic Gateway of India serves as a backdrop for a bustling Mumbai street…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv79",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv79t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv79/index.html"
+    },
+    {
+      "path": "/video/2dv80",
+      "title": "Collaborative Software Solutions for Teams | ShopEx Studio",
+      "description": "Watch Collaborative Software Solutions for Teams in the ShopEx Studio animation portfolio. Vibrant 2D animated characters work in a modern office while colorful charts…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv80",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv80t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv80/index.html"
+    },
+    {
+      "path": "/video/2dv81",
+      "title": "KAKU FINANCE: Modern Digital Banking Experience | ShopEx Studio",
+      "description": "Watch KAKU FINANCE: Modern Digital Banking Experience in the ShopEx Studio animation portfolio. This promotional showcase illustrates the innovative features of the…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv81",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv81t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv81/index.html"
+    },
+    {
+      "path": "/video/2dv82",
+      "title": "Innovation in Modern Knowledge Management | ShopEx Studio",
+      "description": "Watch Innovation in Modern Knowledge Management in the ShopEx Studio animation portfolio. A woman works in a bright home office alongside digital graphics and miniature…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv82",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv82t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv82/index.html"
+    },
+    {
+      "path": "/video/2dv83",
+      "title": "Streamlining Global Workforce Management Solutions | ShopEx Studio",
+      "description": "Watch Streamlining Global Workforce Management Solutions in the ShopEx Studio animation portfolio. Vibrant paper-textured illustrations and collage-style graphics…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv83",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv83t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv83/index.html"
+    },
+    {
+      "path": "/video/2dv84",
+      "title": "Visualizing the Journey of Surrogacy | ShopEx Studio",
+      "description": "Watch Visualizing the Journey of Surrogacy in the ShopEx Studio animation portfolio. Stylized animations depict the emotional experiences of families and surrogates as…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv84",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv84t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv84/index.html"
+    },
+    {
+      "path": "/video/2dv85",
+      "title": "Simplified Auto-Pay Setup for Parking | ShopEx Studio",
+      "description": "Watch Simplified Auto-Pay Setup for Parking in the ShopEx Studio animation portfolio. This instructional walkthrough demonstrates the seamless process of opting into…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv85",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv85t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv85/index.html"
+    },
+    {
+      "path": "/video/2dv86",
+      "title": "Precision AI Claims Processing Platform | ShopEx Studio",
+      "description": "Watch Precision AI Claims Processing Platform in the ShopEx Studio animation portfolio. Dynamic animations and bold visuals demonstrate the speed and ease of using an…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv86",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv86t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv86/index.html"
+    },
+    {
+      "path": "/video/2dv87",
+      "title": "AI Procurement Assistant | ShopEx Studio",
+      "description": "Watch AI Procurement Assistant in the ShopEx Studio animation portfolio. A flowing mix of UI animation, kinetic typography, and blue gradients introduces an AI…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv87",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv87t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv87/index.html"
+    },
+    {
+      "path": "/video/2dv88",
+      "title": "Simplifying Tasks with AI Legal Assistant | ShopEx Studio",
+      "description": "Watch Simplifying Tasks with AI Legal Assistant in the ShopEx Studio animation portfolio. Minimalist graphics and bold colors illustrate how an AI legal tool integrates…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv88",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv88t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv88/index.html"
+    },
+    {
+      "path": "/video/2dv89",
+      "title": "Supernova AI Product Demo | ShopEx Studio",
+      "description": "Watch Supernova AI Product Demo in the ShopEx Studio animation portfolio. A clean UI walkthrough showing how Supernova helps teams explore design systems, find…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv89",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv89t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv89/index.html"
+    },
+    {
+      "path": "/video/2dv90",
+      "title": "Collaborative Tools for Employee Engagement | ShopEx Studio",
+      "description": "Watch Collaborative Tools for Employee Engagement in the ShopEx Studio animation portfolio. Diverse professionals collaborate in modern offices while dynamic graphics…",
+      "canonical": "https://www.shopex-portfolio.com/video/2dv90",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/2dv90t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/2dv90/index.html"
+    },
+    {
+      "path": "/video/v01",
+      "title": "Urban Solution | ShopEx Studio",
+      "description": "Watch Urban Solution in the ShopEx Studio animation portfolio. This project showcases a clean 2D vector animation demonstrating the seamless integration of technology…",
+      "canonical": "https://www.shopex-portfolio.com/video/v01",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v1t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v01/index.html"
+    },
+    {
+      "path": "/video/v02",
+      "title": "BugHerd | ShopEx Studio",
+      "description": "Watch BugHerd in the ShopEx Studio animation portfolio. This project highlights a clean, integrated feedback platform for web development. Through sleek motion graphics…",
+      "canonical": "https://www.shopex-portfolio.com/video/v02",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v2t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v02/index.html"
+    },
+    {
+      "path": "/video/v03",
+      "title": "Hybrid Workspace | ShopEx Studio",
+      "description": "Watch Hybrid Workspace in the ShopEx Studio animation portfolio. This minimalist motion piece uses soft pastel gradients and dark navy contrast to visualize the shift…",
+      "canonical": "https://www.shopex-portfolio.com/video/v03",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v3t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v03/index.html"
+    },
+    {
+      "path": "/video/v04",
+      "title": "Avingo Healthcare Staffing | ShopEx Studio",
+      "description": "Watch Avingo Healthcare Staffing in the ShopEx Studio animation portfolio. This project features a clean 2D vector animation exploring healthcare staffing solutions…",
+      "canonical": "https://www.shopex-portfolio.com/video/v04",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v4t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v04/index.html"
+    },
+    {
+      "path": "/video/v05",
+      "title": "Global Logistics Security | ShopEx Studio",
+      "description": "Watch Global Logistics Security in the ShopEx Studio animation portfolio. This isometric animation visualizes the complexities of global shipping and contraband…",
+      "canonical": "https://www.shopex-portfolio.com/video/v05",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v5t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v05/index.html"
+    },
+    {
+      "path": "/video/v06",
+      "title": "Allotrac Logistics Solutions | ShopEx Studio",
+      "description": "Watch Allotrac Logistics Solutions in the ShopEx Studio animation portfolio. This sleek promotional animation demonstrates the operational freedom of the Allotrac…",
+      "canonical": "https://www.shopex-portfolio.com/video/v06",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v6t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v06/index.html"
+    },
+    {
+      "path": "/video/v07",
+      "title": "Business Process Insights | ShopEx Studio",
+      "description": "Watch Business Process Insights in the ShopEx Studio animation portfolio. This project utilizes a modern 2D animation style to explore the complexities of corporate…",
+      "canonical": "https://www.shopex-portfolio.com/video/v07",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v7t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v07/index.html"
+    },
+    {
+      "path": "/video/v08",
+      "title": "AI-Powered Customer Acquisition and Sales Strategy | ShopEx Studio",
+      "description": "Watch AI-Powered Customer Acquisition and Sales Strategy in the ShopEx Studio animation portfolio. This dynamic animation follows a marketing team through sales…",
+      "canonical": "https://www.shopex-portfolio.com/video/v08",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v8t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v08/index.html"
+    },
+    {
+      "path": "/video/v09",
+      "title": "Innovation and Design Showcase | ShopEx Studio",
+      "description": "Watch Innovation and Design Showcase in the ShopEx Studio animation portfolio. This dynamic compilation highlights high-end products including racing cars, wearable…",
+      "canonical": "https://www.shopex-portfolio.com/video/v09",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v9t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v09/index.html"
+    },
+    {
+      "path": "/video/v10",
+      "title": "Titanium Intelligent Solutions Smart Industrial Thermostat | ShopEx Studio",
+      "description": "Watch Titanium Intelligent Solutions Smart Industrial Thermostat in the ShopEx Studio animation portfolio. This professional promotional video showcases the sleek…",
+      "canonical": "https://www.shopex-portfolio.com/video/v10",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v10t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v10/index.html"
+    },
+    {
+      "path": "/video/v11",
+      "title": "Cauldron: Streamlined Professional Hiring and Candidate Management | ShopEx Studio",
+      "description": "Watch Cauldron: Streamlined Professional Hiring and Candidate Management in the ShopEx Studio animation portfolio. This video demonstrates the Cauldron platform's…",
+      "canonical": "https://www.shopex-portfolio.com/video/v11",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v11t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v11/index.html"
+    },
+    {
+      "path": "/video/v12",
+      "title": "Professional Digital Kiosk Solutions Showcase | ShopEx Studio",
+      "description": "Watch Professional Digital Kiosk Solutions Showcase in the ShopEx Studio animation portfolio. This promotional video highlights the modern design and functional…",
+      "canonical": "https://www.shopex-portfolio.com/video/v12",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v12t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v12/index.html"
+    },
+    {
+      "path": "/video/v13",
+      "title": "One Paper Lane Business Process Automation | ShopEx Studio",
+      "description": "Watch One Paper Lane Business Process Automation in the ShopEx Studio animation portfolio. This isometric animation demonstrates how the One Paper Lane platform…",
+      "canonical": "https://www.shopex-portfolio.com/video/v13",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v13t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v13/index.html"
+    },
+    {
+      "path": "/video/v14",
+      "title": "Minimalist Data Visualization of Senior Housing in Flanders | ShopEx Studio",
+      "description": "Watch Minimalist Data Visualization of Senior Housing in Flanders in the ShopEx Studio animation portfolio. This minimalist 2D animation utilizes yellow and white…",
+      "canonical": "https://www.shopex-portfolio.com/video/v14",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v14t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v14/index.html"
+    },
+    {
+      "path": "/video/v15",
+      "title": "dowork.ai Project Management and Estimation Platform | ShopEx Studio",
+      "description": "Watch dowork.ai Project Management and Estimation Platform in the ShopEx Studio animation portfolio. This professional animation showcases the dowork.ai platform’s…",
+      "canonical": "https://www.shopex-portfolio.com/video/v15",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v15t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v15/index.html"
+    },
+    {
+      "path": "/video/v16",
+      "title": "Simplify Shared Expenses with Kassa | ShopEx Studio",
+      "description": "Watch Simplify Shared Expenses with Kassa in the ShopEx Studio animation portfolio. This vibrant 2D animation demonstrates how the Kassa app helps users coordinate…",
+      "canonical": "https://www.shopex-portfolio.com/video/v16",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v16t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v16/index.html"
+    },
+    {
+      "path": "/video/v17",
+      "title": "Streamlined Project Collaboration with Fronter | ShopEx Studio",
+      "description": "Watch Streamlined Project Collaboration with Fronter in the ShopEx Studio animation portfolio. This professional animation showcases the Fronter platform on a laptop in…",
+      "canonical": "https://www.shopex-portfolio.com/video/v17",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v17t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v17/index.html"
+    },
+    {
+      "path": "/video/v18",
+      "title": "Ten-X Commercial Real Estate Platform Overview | ShopEx Studio",
+      "description": "Watch Ten-X Commercial Real Estate Platform Overview in the ShopEx Studio animation portfolio. This dynamic flat-style animation showcases the Ten-X platform's modern…",
+      "canonical": "https://www.shopex-portfolio.com/video/v18",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v18t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v18/index.html"
+    },
+    {
+      "path": "/video/v19",
+      "title": "Ready Rocker Portable Device Engineering Showcase | ShopEx Studio",
+      "description": "Watch Ready Rocker Portable Device Engineering Showcase in the ShopEx Studio animation portfolio. This video provides a detailed look at the Ready Rocker, utilizing…",
+      "canonical": "https://www.shopex-portfolio.com/video/v19",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v19t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v19/index.html"
+    },
+    {
+      "path": "/video/v20",
+      "title": "Tom's Flying Shoes and Aristotle's Social Proof (v20) | ShopEx Studio",
+      "description": "Watch Tom's Flying Shoes and Aristotle's Social Proof (v20) in the ShopEx Studio animation portfolio. This lighthearted animation follows an inventor named Tom as he…",
+      "canonical": "https://www.shopex-portfolio.com/video/v20",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v20t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v20/index.html"
+    },
+    {
+      "path": "/video/v21",
+      "title": "Allotrac Logistics and Transport Management Solutions | ShopEx Studio",
+      "description": "Watch Allotrac Logistics and Transport Management Solutions in the ShopEx Studio animation portfolio. This animation demonstrates a mobile app's integration with…",
+      "canonical": "https://www.shopex-portfolio.com/video/v21",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v21t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v21/index.html"
+    },
+    {
+      "path": "/video/v22",
+      "title": "Modernizing Legacy Software Applications | ShopEx Studio",
+      "description": "Watch Modernizing Legacy Software Applications in the ShopEx Studio animation portfolio. This animated video uses clean 2D motion graphics to illustrate the…",
+      "canonical": "https://www.shopex-portfolio.com/video/v22",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v22t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v22/index.html"
+    },
+    {
+      "path": "/video/v23",
+      "title": "Organized Productivity and Lifestyle Balance Animation | ShopEx Studio",
+      "description": "Watch Organized Productivity and Lifestyle Balance Animation in the ShopEx Studio animation portfolio. This flat vector animation depicts a variety of daily personal…",
+      "canonical": "https://www.shopex-portfolio.com/video/v23",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v23t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v23/index.html"
+    },
+    {
+      "path": "/video/v24",
+      "title": "Integrated Food Supply Chain Management Solutions | ShopEx Studio",
+      "description": "Watch Integrated Food Supply Chain Management Solutions in the ShopEx Studio animation portfolio. This isometric animation illustrates the transformation of fragmented…",
+      "canonical": "https://www.shopex-portfolio.com/video/v24",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v24t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v24/index.html"
+    },
+    {
+      "path": "/video/v25",
+      "title": "ZAGG Protocol Secure Connectivity Animation | ShopEx Studio",
+      "description": "Watch ZAGG Protocol Secure Connectivity Animation in the ShopEx Studio animation portfolio. This minimalist 3D animation visualizes the ZAGG Protocol through a growing…",
+      "canonical": "https://www.shopex-portfolio.com/video/v25",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v25t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v25/index.html"
+    },
+    {
+      "path": "/video/v26",
+      "title": "Cloud Infrastructure and Data Scaling Solutions | ShopEx Studio",
+      "description": "Watch Cloud Infrastructure and Data Scaling Solutions in the ShopEx Studio animation portfolio. This professional isometric animation visualizes the building and…",
+      "canonical": "https://www.shopex-portfolio.com/video/v26",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v26t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v26/index.html"
+    },
+    {
+      "path": "/video/v27",
+      "title": "Audius Music Platform and Artist Empowerment | ShopEx Studio",
+      "description": "Watch Audius Music Platform and Artist Empowerment in the ShopEx Studio animation portfolio. This vibrant 2D animation showcases the Audius platform through a diverse…",
+      "canonical": "https://www.shopex-portfolio.com/video/v27",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v27t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v27/index.html"
+    },
+    {
+      "path": "/video/v28",
+      "title": "Suburban Lifestyle and Community Wellness Animation | ShopEx Studio",
+      "description": "Watch Suburban Lifestyle and Community Wellness Animation in the ShopEx Studio animation portfolio. This lighthearted 2D animation depicts various neighbors engaging in…",
+      "canonical": "https://www.shopex-portfolio.com/video/v28",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v28t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v28/index.html"
+    },
+    {
+      "path": "/video/v29",
+      "title": "Tom's Flying Shoes and Aristotle's Social Proof (v29) | ShopEx Studio",
+      "description": "Watch Tom's Flying Shoes and Aristotle's Social Proof (v29) in the ShopEx Studio animation portfolio. This lighthearted animation follows an inventor named Tom as he…",
+      "canonical": "https://www.shopex-portfolio.com/video/v29",
+      "socialImage": "https://res.cloudinary.com/fd9kyggd/image/upload/c_fill,w_1200,h_630/f_jpg/q_auto:good/v29t",
+      "indexable": true,
+      "existingLiveStatus": 200,
+      "initialHtmlFile": "dist/video/v29/index.html"
+    }
+  ]
+}

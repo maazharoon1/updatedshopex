@@ -1,3 +1,4 @@
+import { homeSeo } from "@/lib/seo";
 import { useEffect, useRef } from "react";
 import { Layout } from "@/components/Layout";
 import { useSeo } from "@/hooks/use-seo";
@@ -7,11 +8,7 @@ import { PremiumSeparator } from "@/components/PremiumSeparator";
 import Work from "./Work";
 
 const Index = () => {
-  useSeo({
-    title: "ShopEx Studio — Design & Illustration",
-    description:
-      "Independent artist and designer specializing in brand identity, illustration, and visual design.",
-  });
+  useSeo(homeSeo);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);

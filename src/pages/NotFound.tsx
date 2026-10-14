@@ -1,8 +1,9 @@
+import { notFoundSeo } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { useSeo } from "@/hooks/use-seo";
 
 const NotFound = () => {
-  useSeo({ title: "404 — Page not found | ShopEx Studio", description: "The requested page could not be found.", noIndex: true });
+  useSeo(notFoundSeo);
   return (
     <main className="flex min-h-screen items-center justify-center bg-muted px-6">
       <div className="text-center">
