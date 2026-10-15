@@ -1631,7 +1631,7 @@ export const projects: Project[] = [
     type: "image",
     description: "",
     mainImage: "Il01-1",
-    coverImages: ["Il0102","Il01-3","Il01-4","Il01-5"],
+    coverImages: ["Il01-2","Il01-3","Il01-4","Il01-5"],
     tags: ["ILLUSTRATION"],
     client: "Independent",
   },
